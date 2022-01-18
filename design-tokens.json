@@ -1,11 +1,15 @@
 {
   "global": {
-    "color": {
-      "primary": {
+    "Color": {
+      "Primary": {
         "100": {
           "value": "#ebedf0",
           "type": "color"
-        },
+        }
+      }
+    },
+    "color": {
+      "primary": {
         "200": {
           "value": "#cdd4da",
           "type": "color",
