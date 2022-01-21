@@ -331,32 +331,6 @@
       }
     },
     "size": {
-      "font": {
-        "extralarge": {
-          "value": "48px",
-          "type": "sizing"
-        },
-        "large": {
-          "value": "24px",
-          "type": "sizing"
-        },
-        "medium": {
-          "value": "16px",
-          "type": "sizing"
-        },
-        "base": {
-          "value": "14px",
-          "type": "sizing"
-        },
-        "small": {
-          "value": "12px",
-          "type": "sizing"
-        },
-        "extrasmall": {
-          "value": "10px",
-          "type": "sizing"
-        }
-      },
       "border": {
         "radius": {
           "small": {
@@ -371,6 +345,32 @@
             "value": "20px",
             "type": "borderRadius"
           }
+        }
+      },
+      "font": {
+        "extralarge": {
+          "value": "48px",
+          "type": "fontSizes"
+        },
+        "large": {
+          "value": "24px",
+          "type": "fontSizes"
+        },
+        "medium": {
+          "value": "16px",
+          "type": "fontSizes"
+        },
+        "base": {
+          "value": "14px",
+          "type": "fontSizes"
+        },
+        "small": {
+          "value": "12px",
+          "type": "fontSizes"
+        },
+        "extrasmall": {
+          "value": "10px",
+          "type": "fontSizes"
         }
       }
     },
@@ -400,6 +400,24 @@
           "value": "2.4px",
           "type": "letterSpacing"
         }
+      }
+    },
+    "elevation": {
+      "2": {
+        "value": "0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.20)",
+        "type": "other"
+      },
+      "4": {
+        "value": "0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.20)",
+        "type": "other"
+      },
+      "8": {
+        "value": "0 8px 10px 1px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.20)",
+        "type": "other"
+      },
+      "12": {
+        "value": "0 12px 17px 2px rgba(0,0,0,0.14), 0 5px 22px 4px rgba(0,0,0,0.12), 0 7px 8px -4px rgba(0,0,0,0.20)",
+        "type": "other"
       }
     }
   }
